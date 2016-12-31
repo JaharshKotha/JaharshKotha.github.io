@@ -1971,7 +1971,9 @@
 
 			#header {
 				position: relative;
-				padding: 12em 0;
+				
+                height:10em;
+                 
 			}
 
 			.homepage #header {
@@ -1981,13 +1983,16 @@
 		/* Logo */
 
 			#logo {
-				position: absolute;
-				height: 5em;
+				position: relative;
+				height: 15em;
 				top: 50%;
 				left: 0;
 				width: 100%;
 				text-align: center;
-				margin-top: -0.5em;
+                padding-top: 5em;
+				
+               
+                
 			}
 
 			.homepage #logo {
@@ -2240,6 +2245,7 @@
 
 			#header {
 				padding: 10em 0;
+                background-color: bisque;
 			}
 
 			.homepage #header {
