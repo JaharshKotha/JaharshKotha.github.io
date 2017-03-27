@@ -199,7 +199,7 @@ RainbowGraph.prototype.buildChart = function () {
         // In _this case, it would be column_url. Also note _this we this.hideLabels as we dont want to show column_url in this case.
         //TODO: Why does it not require column_url in return statement. It still works if it does not return.
         x.domain(this.rankings.map(function (d, i) {
-            if (d.stu_id != "") return (d.first_name + "("+d.stu_id+")"); else  return (d.column_url);
+            if (d.stu_id != "") return (d.first_name + d.stu_id); else  return (d.column_url);
         }));
         
         
